@@ -1,0 +1,37 @@
+# ── Keil MDK-ARM 编译产物 ────────────────────────────────────
+*.o
+*.crf
+*.d
+*.axf
+*.htm
+*.lnp
+*.map
+*.lst
+*.sct
+*.dep
+*.iex
+*.hex
+*.bin
+*.build_log.htm
+
+# Keil 界面布局 / 调试器个人配置（每台机器不同）
+*.uvguix.*
+*.scvd
+*.bak
+*.opt
+*.plg
+*.ddk
+*.edk
+*.tmp
+
+# 编译输出目录
+MDK-ARM/template/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# ── 编辑器 / 系统 ────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
